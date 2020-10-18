@@ -1,4 +1,4 @@
-- if task.errors.precent?
+- if task.errors.present?
   ul#error_explanation
     - task.errors.full_messages.each do |messagge|
       li= message
